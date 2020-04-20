@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Signin() {
+export default function Page401() {
     return (
         <div>
-            <h1>Entrar</h1>
+        <h1>Não autorizado</h1>
         </div>
     );
 }
