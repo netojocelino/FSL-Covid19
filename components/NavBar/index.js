@@ -12,9 +12,10 @@ export function NavLink({ href, children }) {
 export default function NavBar( ) {
     return (
         <nav className="bg-gray-500 py-4 text-center">
-            <NavLink href="/about">Sobre</NavLink>
-            <NavLink href="/signup">Cadastre-se</NavLink>
-            <NavLink href="/signin">Entrar</NavLink>
+            <NavLink href="/app">App</NavLink>
+            <NavLink href="/status/create">Cadastrar status</NavLink>
+            <NavLink href="/api/login">Entrar</NavLink>
+            <NavLink href="/api/logout">Sair</NavLink>
         </nav>
     );
 }
